@@ -10,6 +10,13 @@
 <a name="desc"></a>
 ## 1. Description
 
+I created an application that allows a user to save events for each hour of the day. 
+When the application is opened the current day is displayed at the top of the calendar.
+you can scroll down and are presented with time blocks for standard business hours and each time
+block is color coded to indicate whether it is in the past, present, or future.
+When you click on a time block, you can enter text about the certain event for that hour.
+If you click save the button, the text for that event is saved in local storage.
+Also if you refresh the page the saved events persist.
 
 
 
