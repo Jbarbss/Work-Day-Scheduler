@@ -109,7 +109,7 @@ function timeColor() {
 
   if (timeOfDay > 17) {
     $("#hour5").addClass("past");
-  } else if (timeOfDay >= 17 && timeOfDay > 18) {
+  } else if (timeOfDay >= 17 && timeOfDay < 18) {
     $("#hour5").addClass("present");
   } else if (timeOfDay < 17) {
     $("#hour5").addClass("future");
